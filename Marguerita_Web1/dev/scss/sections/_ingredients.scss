@@ -1,0 +1,35 @@
+/* =============
+    Ingredients
+============= */
+#ingredients{
+  background-color: white;
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". ingredients .";
+
+  >div{
+    grid-area: ingredients;
+  }
+  h1{
+    padding-top: 56px;
+    padding-right: 80px;
+    padding-bottom: 70px;
+    padding-left: 80px;
+    text-align: center;
+  }
+  img{
+    padding: 15px;
+  }
+  h2{
+    text-align: center;
+    padding: 10px;
+  }
+  p{
+    color: #989898;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+
+}

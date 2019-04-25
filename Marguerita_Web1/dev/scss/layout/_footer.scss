@@ -1,0 +1,25 @@
+/* ================================
+        Footer css
+================================ */
+#footer{
+  background-color: white;
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". footer .";
+
+  >div{
+    grid-area: footer;
+  }
+  p{
+    color: #A3A1A4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  article{
+    p{
+      a{
+        color: #31AEEE;
+      }
+    }
+  }
+}

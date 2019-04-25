@@ -1,0 +1,43 @@
+/* =============
+    About
+============= */
+#about{
+  background-color: white;
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". about .";
+
+  >div{
+    grid-area: about;
+  }
+  h1{
+    color: #353535;
+    text-align: center;
+    padding: 20px;
+  }
+  p{
+    color: #A2A2A4;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  article{
+    h2{
+      color: #353535;
+      padding-top: 20px;
+      padding-right: 20px;
+      padding-left: 20px;
+      background-color: #F5F5F5;
+    }
+    a{
+      color: #989898;
+      padding-right: 251px;
+      padding-left: 20px;
+      background-color: #F5F5F5;
+    }
+    p{
+       background-color: #F5F5F5;
+    }
+  }
+}
