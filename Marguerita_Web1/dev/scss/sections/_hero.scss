@@ -2,33 +2,9 @@
     Hero
 ============= */
 #hero{
-  background-color: white;
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". hero .";
-
-  img{
-    width: 100%;
-  }
-
-  >div{
-    grid-area: hero;
-  }
-  h1{
-    color: white;
-    text-align: center;
-    padding-right: 14px;
-    padding-bottom: 0px;
-    padding-left: 14px;
-  }
-  a{
-    color: white;
-  }
-}
-
-#hero-img{
-  background-image: url('../img/hero/hero-1.jpg');
+  background-image: url("../img/hero/hero-1.jpg");
   background-size: cover;
-  height: 202px;
-  margin-top: -120px;
+  background-position: center;
+  padding: 62px 0 107px;
+  color: $white;
 }

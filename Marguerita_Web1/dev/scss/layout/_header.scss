@@ -2,26 +2,5 @@
         Header css
 ================================ */
 #header{
-  background-color: white;
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". header .";
-
-  img{
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 25px;
-    padding-left: 5px;
-  }
-
-  a{
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 25px;
-    padding-left: 18px;
-  }
-
-  >div{
-    grid-area: header;
-  }
+  padding: 10px 0;
 }

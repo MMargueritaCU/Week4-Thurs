@@ -332,8 +332,10 @@ ul {
   .content-grid .content-grid-item {
     grid-area: content; }
 
-.site-section {
-  padding-top: 33px; }
+.section-content {
+  padding: 56px 0 50px; }
+  .section-content h1 {
+    margin-bottom: 30px; }
 
 /* ================================
         Typography css
@@ -359,22 +361,7 @@ p {
         Header css
 ================================ */
 #header {
-  background-color: white;
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". header ."; }
-  #header img {
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 25px;
-    padding-left: 5px; }
-  #header a {
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 25px;
-    padding-left: 18px; }
-  #header > div {
-    grid-area: header; }
+  padding: 10px 0; }
 
 /* ================================
         Footer css
@@ -397,90 +384,28 @@ p {
     Hero
 ============= */
 #hero {
-  background-color: white;
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". hero ."; }
-  #hero img {
-    width: 100%; }
-  #hero > div {
-    grid-area: hero; }
-  #hero h1 {
-    color: white;
-    text-align: center;
-    padding-right: 14px;
-    padding-bottom: 0px;
-    padding-left: 14px; }
-  #hero a {
-    color: white; }
-
-#hero-img {
   background-image: url("../img/hero/hero-1.jpg");
   background-size: cover;
-  height: 202px;
-  margin-top: -120px; }
+  background-position: center;
+  padding: 62px 0 107px;
+  color: #fff; }
 
 /* =============
     Ingredients
 ============= */
-#ingredients {
-  background-color: white;
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". ingredients ."; }
-  #ingredients > div {
-    grid-area: ingredients; }
-  #ingredients h1 {
-    padding-top: 56px;
-    padding-right: 80px;
-    padding-bottom: 70px;
-    padding-left: 80px;
-    text-align: center; }
-  #ingredients img {
-    padding: 15px; }
-  #ingredients h2 {
-    text-align: center;
-    padding: 10px; }
-  #ingredients p {
-    color: #989898;
-    text-align: center;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px; }
+#ingredients ul li h2 {
+  padding: 18px 0 7px; }
 
 /* =============
     Mobile
 ============= */
 #mobile {
-  background-color: #F5F5F5;
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". mobile ."; }
+  background-color: #F5F5F5; }
   #mobile img {
+    margin: 24px 0;
     width: 100%; }
-  #mobile > div {
-    grid-area: mobile; }
-  #mobile h1 {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px; }
-  #mobile p {
-    color: #A1A1A1;
-    text-align: center;
-    padding-right: 25px;
-    padding-bottom: 20px;
-    padding-left: 25px; }
-  #mobile article h2 {
-    color: #353154;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-left: 20px; }
-  #mobile article p {
-    color: #A1A1A1;
-    text-align: left;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 20px; }
+  #mobile article {
+    margin-top: 16px; }
 
 /* =============
     About
