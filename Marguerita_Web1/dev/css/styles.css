@@ -366,19 +366,8 @@ p {
 /* ================================
         Footer css
 ================================ */
-#footer {
-  background-color: white;
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". footer ."; }
-  #footer > div {
-    grid-area: footer; }
-  #footer p {
-    color: #A3A1A4;
-    padding-top: 30px;
-    padding-bottom: 30px; }
-  #footer article p a {
-    color: #31AEEE; }
+footer {
+  color: #9C9D9E; }
 
 /* =============
     Hero
@@ -410,83 +399,40 @@ p {
 /* =============
     About
 ============= */
+.about-quote {
+  margin-top: 20px;
+  background-color: #F5F5F5;
+  padding: 31px 0 16px; }
+  .about-quote span {
+    color: #01AAF7; }
+
 #about {
-  background-color: white;
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". about ."; }
-  #about > div {
-    grid-area: about; }
-  #about h1 {
-    color: #353535;
-    text-align: center;
-    padding: 20px; }
-  #about p {
-    color: #A2A2A4;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px; }
-  #about article h2 {
-    color: #353535;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    background-color: #F5F5F5; }
-  #about article a {
-    color: #989898;
-    padding-right: 251px;
-    padding-left: 20px;
-    background-color: #F5F5F5; }
-  #about article p {
-    background-color: #F5F5F5; }
+  padding-bottom: 20px; }
+
+#about-last-quote {
+  margin-bottom: 50px; }
 
 /* =============
     Pricing
 ============= */
 #pricing {
-  background-color: #F5F5F5;
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". pricing ."; }
-  #pricing > div {
-    grid-area: pricing; }
-  #pricing h1 {
-    color: #353535;
-    text-align: center;
-    padding: 20px; }
-  #pricing a {
-    color: #2BA1D7; }
-  #pricing p {
-    color: #9C9C9E;
-    text-align: center;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px; }
-  #pricing h2 {
-    text-align: center;
-    color: #EAFFFF;
-    background-color: #05ABF8;
-    padding-top: 20px;
-    padding-bottom: 20px; }
-  #pricing ul p {
-    text-align: left;
-    color: black;
-    background-color: white;
-    padding-right: 20px;
-    padding-left: 20px; }
-  #pricing article h3 {
-    color: #EAFFFF;
-    background-color: #05ABF8;
-    padding: 20px; }
-  #pricing article p {
-    color: #EAFFFF;
-    background-color: #05ABF8;
-    text-align: left; }
-  #pricing article a {
-    color: #EAFFFF;
-    background-color: #05ABF8;
-    padding-right: 143px;
-    padding-bottom: 20px;
-    padding-left: 143px; }
+  background-color: #F5F5F5; }
+  #pricing h1 + p {
+    color: #9C9D9E; }
+  #pricing section {
+    background-color: #01AAF7;
+    color: #fff;
+    padding: 26px 0 30px;
+    margin-top: 16px; }
+    #pricing section h1 {
+      margin: 0; }
+  #pricing ul {
+    background-color: #fff;
+    padding: 10px; }
+
+/* =============
+    Questions
+============= */
+#questions {
+  background-color: #01AAF7;
+  color: #fff; }

@@ -2,64 +2,26 @@
     Pricing
 ============= */
 #pricing{
-  background-color: #F5F5F5;
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". pricing .";
+  background-color: $lightGrey;
 
-  >div{
-    grid-area: pricing;
+  h1+p{
+    color: $greyText;
   }
-  h1{
-    color: #353535;
-    text-align: center;
-    padding: 20px;
+
+  section{
+    background-color: $blue;
+    color: $white;
+    padding: 26px 0 30px;
+    margin-top: 16px;
+
+    h1{
+      margin: 0;
+    }
   }
-  a{
-    color: #2BA1D7;
-  }
-  p{
-    color: #9C9C9E;
-    text-align: center;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-  }
-  h2{
-    text-align: center;
-    color: #EAFFFF;
-    background-color: #05ABF8;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
+
   ul{
-    p{
-      text-align: left;
-      color: black;
-      background-color: white;
-      padding-right: 20px;
-      padding-left: 20px;
-    }
-  }
-  article{
-    h3{
-      color: #EAFFFF;
-      background-color: #05ABF8;
-      padding: 20px;
-    }
-    p{
-      color: #EAFFFF;
-      background-color: #05ABF8;
-      text-align: left;
-    }
-    a{
-      color: #EAFFFF;
-      background-color: #05ABF8;
-      padding-right: 143px;
-      padding-bottom: 20px;
-      padding-left: 143px;
-    }
+    background-color: $white;
+    padding: 10px;
   }
 
 }
