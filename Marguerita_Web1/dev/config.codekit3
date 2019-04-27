@@ -170,6 +170,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/hero/hero-1.jpg": {
+		"ft": 16384,
+		"iS": 141612,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/hero/hero-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/hero/hero-2.png": {
 		"ft": 32768,
 		"iS": 28981,

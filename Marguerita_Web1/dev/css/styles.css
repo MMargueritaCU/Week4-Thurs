@@ -371,7 +371,9 @@ body {
         Footer css
 ================================ */
 footer {
-  color: #9C9D9E; }
+  color: #9C9D9E;
+  font-size: 0.625rem;
+  font-weight: 700; }
 
 /* =============
     Hero
@@ -381,24 +383,51 @@ footer {
   background-size: cover;
   background-position: center;
   padding: 62px 0 107px;
-  color: #fff; }
+  color: #fff;
+  text-align: center; }
+  #hero h1 {
+    font-size: 1.5625rem; }
 
 /* =============
     Ingredients
 ============= */
-#ingredients ul li h2 {
-  padding: 18px 0 7px; }
+#ingredients ul {
+  text-align: center; }
+  #ingredients ul li h2 {
+    padding: 18px 0 7px;
+    font-size: 1.375rem; }
+  #ingredients ul li p {
+    color: #9C9D9E;
+    font-size: 0.875rem;
+    font-weight: 700; }
+
+#ingredients h1 {
+  text-align: center;
+  font-size: 1.875rem; }
 
 /* =============
     Mobile
 ============= */
 #mobile {
-  background-color: #F5F5F5; }
+  background-color: #F5F5F5;
+  text-align: center; }
+  #mobile h1 {
+    font-size: 1.875rem; }
+  #mobile p {
+    font-size: 0.9375rem;
+    color: #9C9D9E;
+    font-weight: 700; }
   #mobile img {
     margin: 24px 0;
     width: 100%; }
   #mobile article {
-    margin-top: 16px; }
+    margin-top: 16px;
+    text-align: left; }
+    #mobile article h2 {
+      color: #353154;
+      font-size: 1.25rem; }
+    #mobile article p {
+      font-size: 0.875rem; }
 
 /* =============
     About
@@ -407,11 +436,24 @@ footer {
   margin-top: 20px;
   background-color: #F5F5F5;
   padding: 31px 0 16px; }
+  .about-quote h2 {
+    font-size: 1.125rem; }
+  .about-quote p {
+    color: #9C9D9E;
+    font-size: 0.875rem;
+    font-weight: 700; }
   .about-quote span {
     color: #01AAF7; }
 
 #about {
   padding-bottom: 20px; }
+  #about h1 {
+    text-align: center; }
+  #about p {
+    text-align: justify;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #9C9D9E; }
 
 #about-last-quote {
   margin-bottom: 50px; }
@@ -420,19 +462,32 @@ footer {
     Pricing
 ============= */
 #pricing {
-  background-color: #F5F5F5; }
-  #pricing h1 + p {
-    color: #9C9D9E; }
+  background-color: #F5F5F5;
+  text-align: center; }
+  #pricing h1 {
+    font-size: 1.875rem; }
+  #pricing p {
+    color: #9C9D9E;
+    font-size: 0.875rem;
+    font-weight: 700; }
   #pricing section {
     background-color: #01AAF7;
     color: #fff;
     padding: 26px 0 30px;
     margin-top: 16px; }
-    #pricing section h1 {
-      margin: 0; }
+    #pricing section h2 {
+      margin: 0;
+      font-family: Open Sans;
+      font-size: 2.0625rem;
+      font-weight: 700; }
   #pricing ul {
     background-color: #fff;
     padding: 10px; }
+    #pricing ul li p {
+      color: #000;
+      text-align: left;
+      font-size: 0.9375rem;
+      font-weight: 700; }
 
 /* =============
     Questions
@@ -440,3 +495,12 @@ footer {
 #questions {
   background-color: #01AAF7;
   color: #fff; }
+  #questions h1 {
+    font-size: 1.0625rem;
+    font-weight: 700; }
+  #questions p {
+    font-size: 0.75rem;
+    font-style: italic; }
+  #questions a {
+    font-size: 0.8125rem;
+    font-weight: 700; }
